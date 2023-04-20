@@ -1,0 +1,12 @@
+.received {
+    background: rgb(203, 203, 203);
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.received_items {
+    display: flex;
+    flex-direction: column;
+}

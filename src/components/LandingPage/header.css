@@ -1,0 +1,13 @@
+.header_banner{
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.header_text{
+    color: white;
+    font-family:'Karma';
+    font-size : 32px;
+    padding-top:6px;
+}

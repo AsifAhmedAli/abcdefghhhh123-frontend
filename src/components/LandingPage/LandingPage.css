@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+.Landing {
+  min-height: 100vh;
+  /* display: flex; */
+  /* color: black; */
+  font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
+}
+
+.searchdiv {
+  background: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+  margin: auto;
+  height: 220px;
+}
+
+.timediv {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin: auto;
+  margin-top: 1vh;
+  /* background: rgb(203, 203, 203); */
+  width: 100%;
+}
+.timedivHour{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin: 10px;
+  margin-top: 1vh;
+  /* background: rgb(203, 203, 203); */
+  width: 100%;
+}
+
+.container1 {
+  margin: auto;
+  width: 340px;
+  /* height: 100%; */
+}
+
+.containerX {
+  height: 40vh;
+  /* background: rgb(203, 203, 203); */
+  background: #EFEFEF;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  /* margin: auto;
+  margin-top: 1vh;
+  padding: 0.5rem; */
+  overflow-y: scroll;
+}
+
+.container2 {
+  /* height: 80%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.imginslider {
+  height: 42%;
+  width: 42%;
+  /* margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem; */
+}
+
+.imginslider1 {
+  height: 88%;
+  margin: auto;
+  margin-top: 1vh;
+}
+
+.cont {
+  margin-top: 1vh;
+}
+
+.startcontimg {
+  display: flex;
+  flex-direction: row;
+  /* width: 200px; */
+  color: #f1f1f1;
+  justify-content: space-around;
+}
+
+.infocont {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  width:230px;
+}
+.infoDiv{
+  width: 70%;
+}
+.infoImgDiv {
+  width: 30%;
+  margin-top: 10px;
+  /* margin-left: 10px; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container{
+
+    margin: 0rem;
+}

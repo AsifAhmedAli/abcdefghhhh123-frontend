@@ -1,0 +1,5 @@
+.text_bkg_box{
+    background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
+    width: 100%;
+    border-radius: 500px;
+}

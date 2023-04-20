@@ -1,0 +1,23 @@
+.settings_pref {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.inputString{
+    width: 300px;
+    height:40px;
+    font-family:'Karma';
+    font-size : 16px;
+    margin-top:20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid #2d9fd9;
+     padding-left: 10px;
+}
+input[type=text]:focus {
+    outline: none;
+    border: 1px solid black;
+}

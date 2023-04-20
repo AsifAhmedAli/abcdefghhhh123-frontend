@@ -1,0 +1,33 @@
+.successDivReset{
+  float: left;
+  clear: left;
+  margin-left:40%;
+  margin-top:10px;
+  color: blue;
+  font-size: 16px;
+  font-family:'Karma';
+}
+.btnLogin{
+  float: left;
+  height: 46px;
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+  margin-top: 38px;
+  font-size: 18px;
+  font-family:'Karma';
+  border: none;
+  margin-left: 10px;
+  font-weight: 500px;
+  cursor: pointer;
+}
+.loginReset{
+  margin:14px;
+  font-size: 20px;
+  font-family:'Karma';
+}
+.forgotReset{
+  margin:14px;
+  font-size: 20px;
+  font-family:'Karma';
+}
